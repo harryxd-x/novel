@@ -1,62 +1,110 @@
+<!DOCTYPE html>
 <html lang="zh-hk">
 <head>
-<title>保良局青山精神科書院 小說</title>
-<link rel="icon" type="image/x-icon" href="./server.png">
-<h1 style="text-align:center;">保良局青山精神科書院 小說</h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>保良局青山精神科書院 小說</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex-wrap: nowrap;
+            align-content: space-between;
+            flex-direction: row;
+
+        }
+        @media (max-width: 1100px) {
+          .container {
+            flex-direction: column;
+            
+          }
+        }
+        
+        .book {
+            margin: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 325px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+        }
+        /* @media (max-width: 1100px) {
+          .book{
+            
+          }
+        } */
+
+        .book-content {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .book img {
+            height: auto;
+            border-radius: 5px;
+        }
+        
+        .book a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size:1.125em
+        }
+        
+        .book a:hover {
+            color: #ff586b;
+        }
+    </style>
 </head>
 
 <body>
-<style type="text/css">
-.bottom{      
-    bottom: 0px; 
-    width: 100%;
-}  
-.text{
-    font-size:25px;
-    text-indent: 2em;
-}
-a:link {
-  color: darkblue;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:visited {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-a:active {
-  color: darkgray;
-  background-color: transparent;
-  text-decoration: underline;
-}
-    
-</style>
-<table style="width:99%; margin:auto;" >
-    <tr style="text-align:center;" >
-        <td>
-            <a href="../Jabor，原來你不是Alpha？！/內容.html"title="Jabor，原來你不是Alpha？！">
-            <img src="../Jabor，原來你不是Alpha？！/bookhead.jpg" alt="Jabor ，原來你不是Alpha？！"width="400"></a>
-        </td>
-        <td>
-            <a href="../關於Admin的老婆是前世的好友這件事/第一章：異世界.html"title="關於Admin的老婆是前世的好友這件事">
-                <img src="../關於Admin的老婆是前世的好友這件事/bookhead.jpg" alt="關於Admin的老婆是前世的好友這件事"width="400"></a>
-        </td>
-        <td>
-            <a href="../魔法世界裏的怪胎/內容.html"title="魔法世界裏的怪胎">
-                <img src="../魔法世界裏的怪胎/bookhead.jpg" alt="魔法世界裏的怪胎"width="400"></a>
-        </td>
-    </tr>
-    <tr style="text-align:center;">
-        <td width="50%" style="font-size:25px;"><a href="../Jabor，原來你不是Alpha？！/內容.html"title="Jabor，原來你不是Alpha？！">Jabor，原來你不是Alpha？！</a></td>
-        <td width="50%" style="font-size:25px;"><a href="../關於Admin的老婆是前世的好友這件事/第一章：異世界.html"title="關於Admin的老婆是前世的好友這件事">關於Admin的老婆是前世的好友這件事</a></td>
-        <td width="50%" style="font-size:25px;"><a href="../魔法世界裏的怪胎/內容.html"title="魔法世界裏的怪胎">魔法世界裏的怪胎</a></td>
+  <h1>保良局青山精神科書院 小說</h1>
 
-    </tr>
-</table>
-</body>    
+  <div class="container">
+      <div class="book">
+          <a href="../Jabor，原來你不是Alpha？！/內容.html" title="Jabor，原來你不是Alpha？！">
+              <img src="../Jabor，原來你不是Alpha？！/bookhead.jpg" alt="Jabor ，原來你不是Alpha？！"width="300" height="400">
+          </a>
+          <h2><a href="../Jabor，原來你不是Alpha？！/內容.html" title="Jabor，原來你不是Alpha？！">Jabor，原來你不是Alpha？！</a></h2>
+      </div>
+
+      <div class="book">
+          <a href="../關於Admin的老婆是前世的好友這件事/內容.html" title="關於Admin的老婆是前世的好友這件事">
+              <img src="../關於Admin的老婆是前世的好友這件事/bookhead.jpg" alt="關於Admin的老婆是前世的好友這件事"width="300" height="400">
+          </a>
+          <h2><a href="../關於Admin的老婆是前世的好友這件事/內容.html" title="關於Admin的老婆是前世的好友這件事">關於Admin的老婆是前世的好友這件事</a></h2>
+      </div>
+
+      <div class="book">
+          <a href="../魔法世界裏的怪胎/內容.html" title="魔法世界裏的怪胎">
+              <img src="../魔法世界裏的怪胎/bookhead.jpg" alt="魔法世界裏的怪胎"width="300" height="400">
+          </a>
+          <h2><a href="../魔法世界裏的怪胎/內容.html" title="魔法世界裏的怪胎">魔法世界裏的怪胎</a></h2>
+      </div>
+  </div>
+</body>
+</html>
