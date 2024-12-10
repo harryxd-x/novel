@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-hk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./photo.jpg">
+    <title>插圖</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        
+        @media (max-width: 1100px) {
+          .container {
+            flex-direction: column;
+            
+          }
+        }
+        
+        .book {
+            margin: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 325px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+        }
+        /* @media (max-width: 1100px) {
+          .book{
+            
+          }
+        } */
+
+        .book-content {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .book img {
+            height: auto;
+            border-radius: 5px;
+        }
+        
+        .book a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size:1.125em
+        }
+        
+        .book a:hover {
+            color: #ff586b;
+        }
+        .bottom{      
+            bottom: 0px; 
+            font-size:15px;
+            width: 100%;
+        }  
+        a:link {
+            color: darkblue;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:visited {
+            color: black;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        a:active {
+            color: darkgray;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            flex-wrap: wrap;
+            max-width: 2000px;
+            margin: 0 auto;
+            align-content: center;
+            flex-direction: row;
+
+        }
+        
+        .photo {
+            margin: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 325px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+        }
+
+        .photo-content {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .photo img {
+            height: auto;
+            border-radius: 5px;
+        }
+        
+        .photo a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size:1.125em
+        }
+        
+        .photo a:hover {
+            color: #ff586b;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>插圖</h1>
+
+    <div class="container">
+        <div class="photo">
+            <a href="./插圖/org/1.jpg" title="Admin角色圖1">
+                <img src="./插圖/fixed/1.jpg" alt="【克里莎·克里斯汀娜】(Krisha Kristina)"width="300" height="400">
+            </a>
+            <h2><a href="./插圖/org/1.jpg" title="【克里莎·克里斯汀娜】(Krisha Kristina)">【克里莎·克里斯汀娜】(Krisha Kristina)</a></h2>
+        </div>
+
+        <!-- <div class="photo">
+            <a href="./插圖/org/2.jpg" title="Admin角色圖2">
+                <img src="./插圖/fixed/2.jpg" alt="Admin角色圖2"width="300" height="400">
+            </a>
+            <h2><a href="./插圖/org/2.jpg" title="Admin角色圖2">Admin角色圖2</a></h2>
+        </div>
+        <div class="photo">
+            <a href="./插圖/org/3.jpg" title="Ethan角色圖1">
+                <img src="./插圖/fixed/3.jpg" alt="Ethan角色圖1"width="300" height="400">
+            </a>
+            <h2><a href="./插圖/org/3.jpg" title="Ethan角色圖1">Ethan角色圖1</a></h2>
+        </div>
+        <div class="photo">
+            <a href="./插圖/org/4.jpg" title="Ehtan角色圖2">
+                <img src="./插圖/fixed/4.jpg" alt="Ehtan角色圖2"width="300" height="400">
+            </a>
+            <h2><a href="./插圖/org/4.jpg" title="Ehtan角色圖2">Ehtan角色圖2</a></h2>
+        </div>
+        <div class="photo">
+            <a href="./插圖/org/5.jpg" title="5角色圖">
+                <img src="./插圖/fixed/5.jpg" alt="5角色圖"width="300" height="400">
+            </a>
+            <h2><a href="./插圖/org/5.jpg" title="5角色圖">5角色圖</a></h2>
+        </div>
+        <div class="photo">
+            <a href="./插圖/org/6.jpg" title="6角色圖">
+                <img src="./插圖/fixed/6.jpg" alt="6角色圖"width="300" height="400">
+            </a>
+            <h2><a href="./插圖/org/6.jpg" title="6角色圖">6角色圖</a></h2>
+        </div>
+        <div class="photo">
+            <a href="./插圖/org/7.jpg" title="7圖">
+                <img src="./插圖/fixed/7.jpg" alt="7圖"width="300" height="400">
+            </a>
+            <h2><a href="./插圖/org/7.jpg" title="7圖">7圖</a></h2>
+        </div>
+        <div class="photo">
+            <a href="./插圖/org/8.jpg" title="Tissue角色圖1">
+                <img src="./插圖/fixed/8.jpg" alt="Tissue角色圖1"width="300" height="400">
+            </a>
+            <h2><a href="./插圖/org/8.jpg" title="Tissue角色圖1">Tissue角色圖1</a></h2>
+        </div>
+        <div class="photo">
+            <a href="./插圖/org/9.jpg" title="Tissue角色圖2">
+                <img src="./插圖/fixed/9.jpg" alt="Tissue角色圖2"width="300" height="400">
+            </a>
+            <h2><a href="./插圖/org/9.jpg" title="Tissue角色圖2">Tissue角色圖2</a></h2>
+        </div>
+        <div class="photo">
+            <a href="./插圖/org/10.jpg" title="10角色圖">
+                <img src="./插圖/fixed/10.jpg" alt="10角色圖"width="300" height="400">
+            </a>
+            <h2><a href="./插圖/org/10.jpg" title="10角色圖"><del>10角色圖</del></a></h2>
+        </div>
+        <div class="photo">
+            <a href="./插圖/org/11.jpg" title="Tissue畫的Ethan">
+                <img src="./插圖/fixed/11.jpg" alt="Tissue畫的Ethan"width="300" height="400">
+            </a>
+            <h2><a href="./插圖/org/11.jpg" title="Tissue畫的Ethan">Tissue畫的Ethan</a></h2>
+        </div>
+        <div class="photo">
+            <a href="./插圖/org/12.jpg" title="Tissue畫的Ethan和Admin">
+                <img src="./插圖/fixed/12.jpg" alt="Tissue畫的Ethan和Admin"width="300" height="400">
+            </a>
+            <h2><a href="./插圖/org/12.jpg" title="Tissue畫的Ethan和Admin">Tissue畫的Ethan和Admin</a></h2>
+        </div>
+      
+    </div> -->
+<div class= "bottom">
+<table width="50%"  class="board"style="text-align:center;margin:auto;font-size:20px;color:gray"cellpadding="10"cellspacing="5">
+    <tbody>
+        <td width="25%">
+            <a href="./第四章.html">上一章</a>
+        </td>
+        <td width="25%">
+            <a href="../home/home.html">首頁</a>
+        </td>
+        <td width="25%">
+            <a href="./內容.html">書目</a> 
+        </td>
+        <td width="25%">
+            <a href="https://youtu.be/WsPaJdvBzhE?si=BnPrANIqofR5YltE">下一章</a>
+        </td>
+    </tbody>
+</table>
+
+
+<p style="text-align:center;color: red;">any bug? report <a href="https://github.com/6xd-x/novel/issues"target="_blank">here</a></p>
+
+
+<address>
+    Written by Jabor &copy.<br> 
+    Web make by 6 &copy.<br> 
+    Visit us at <a href="https://discord.gg/zpWR33ERzb" target="_blank">here</a><br>
+</address>
+</body>
+</html>
