@@ -1,1 +1,1 @@
-hi fuck you admin no update the fucking story
+[link](http://sostory.serveblog.net/)
