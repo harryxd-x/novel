@@ -1,1 +1,1 @@
-hi fuck you jabor no update the fucking story
+hi fuck you admin no update the fucking story
