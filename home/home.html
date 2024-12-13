@@ -40,70 +40,60 @@
             height: 500px;
             display: flex;
             flex-direction: column;
+            align-items: center;
+            text-align: center;
+            text-decoration:s;
             justify-content: space-between;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size:1.125em
             
         }
-        /* @media (max-width: 1100px) {
-          .book{
-            
-          }
-        } */
+        .book:hover{
+            color: white;
+            background-color: #999999   ;
 
-        .book-content {
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
         }
-
+        .book:hover img{
+            /* filter: blur(2px); */
+            filter: opacity(55%);
+        }
+        .book:active{
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
         .book img {
             height: auto;
             border-radius: 5px;
         }
         
-        .book a {
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-            font-size:1.125em
-        }
-        
         .book a:hover {
             color: #ff586b;
         }
+        .cta-button {
+      display: inline-block;
+      background-color: #6A5ACD ;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #B0A9DD   ;
+    }
     </style>
 </head>
 
 <body>
   <h1>保良局青山精神科書院 小說</h1>
 
-  <div class="container">
-      <div class="book">
-          <a href="../Jabor，原來你不是Alpha？！/內容.html" title="Jabor，原來你不是Alpha？！">
-              <img src="../Jabor，原來你不是Alpha？！/bookhead.jpg" alt="Jabor ，原來你不是Alpha？！"width="300" height="400">
-          </a>
-          <h2><a href="../Jabor，原來你不是Alpha？！/內容.html" title="Jabor，原來你不是Alpha？！">Jabor，原來你不是Alpha？！</a></h2>
-      </div>
-
-      <div class="book">
-          <a href="../關於Admin的老婆是前世的好友這件事/內容.html" title="關於Admin的老婆是前世的好友這件事">
-              <img src="../關於Admin的老婆是前世的好友這件事/bookhead.jpg" alt="關於Admin的老婆是前世的好友這件事"width="300" height="400">
-          </a>
-          <h2><a href="../關於Admin的老婆是前世的好友這件事/內容.html" title="關於Admin的老婆是前世的好友這件事">關於Admin的老婆是前世的好友這件事</a></h2>
-      </div>
-
-      <div class="book">
-          <a href="../魔法世界裏的怪胎/內容.html" title="魔法世界裏的怪胎">
-              <img src="../魔法世界裏的怪胎/bookhead.jpg" alt="魔法世界裏的怪胎"width="300" height="400">
-          </a>
-          <h2><a href="../魔法世界裏的怪胎/內容.html" title="魔法世界裏的怪胎">魔法世界裏的怪胎</a></h2>
-      </div>
-      <div class="book">
-          <a href="../異界少年與魔女的命運之旅/內容.html" title="異界少年與魔女的命運之旅">
-              <img src="../異界少年與魔女的命運之旅/bookhead.jpg" alt="異界少年與魔女的命運之旅"width="300" height="400">
-          </a>
-          <h2><a href="../異界少年與魔女的命運之旅/內容.html" title="異界少年與魔女的命運之旅">異界少年與魔女的命運之旅</a></h2>
-      </div>
+    <div class="container">
+        <a href="../Jabor，原來你不是Alpha？！/內容.html" title="Jabor，原來你不是Alpha？！"class="book"><img src="../Jabor，原來你不是Alpha？！/bookhead.jpg" alt="Jabor ，原來你不是Alpha？！"width="300" height="400"><h2>Jabor，原來你不是Alpha？！</h2></a>
+        <a href="../關於Admin的老婆是前世的好友這件事/內容.html" title="關於Admin的老婆是前世的好友這件事"class="book"><img src="../關於Admin的老婆是前世的好友這件事/bookhead.jpg" alt="關於Admin的老婆是前世的好友這件事"width="300" height="400"><h2>關於Admin的老婆是前世的好友這件事</h2></a>
+        <a href="../魔法世界裏的怪胎/內容.html" title="魔法世界裏的怪胎"class="book"><img src="../魔法世界裏的怪胎/bookhead.jpg" alt="魔法世界裏的怪胎"width="300" height="400"><h2>魔法世界裏的怪胎</h2></a>
+        <a href="../異界少年與魔女的命運之旅/內容.html" title="異界少年與魔女的命運之旅"class="book"><img src="../異界少年與魔女的命運之旅/bookhead.jpg" alt="異界少年與魔女的命運之旅"width="300" height="400"><h2>異界少年與魔女的命運之旅</h2></a>
   </div>
 <p style="text-align:center;color: red;">any bug? report <a href="https://github.com/harryxd-x/novel/issues"target="_blank">here</a></p>
 
