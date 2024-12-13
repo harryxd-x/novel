@@ -1,1 +1,1 @@
-[link](http://sostory.serveblog.net/)
+[link](https://raw.githack.com/harryxd-x/novel/main/home/home.html)
